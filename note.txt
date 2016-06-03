@@ -1,3 +1,8 @@
 hello world
 文件名注意区分大小写，否则commit会失败（ps add不会失败，不知道为啥？）。
 add . 与 add * 的区别是什么？
+Cannot update paths and switch to branch 'dev' at the same time.
+
+git checkout -b dev
+git reset --hard origin/dev
+git push -u origin dev
